@@ -1,0 +1,223 @@
+@import url('https://fonts.googleapis.com/css?family=Roboto+Mono');
+@import url('https://fonts.googleapis.com/css2?family=Poppins:wght@400;700&display=swap');
+body
+{
+  margin: 0;
+	padding: 0;
+	display: flex;
+	min-height: 100vh;
+  font-family: 'Poppins', sans-serif;
+  scroll-behavior: smooth;
+}
+/* backgroud da pagina */
+.bg
+{
+    position: absolute;
+    left: 0;
+    top: 0;
+    width: 100vw;
+    height: 100vh;
+    background-image: url('https://images.pexels.com/photos/296085/pexels-photo-296085.jpeg?auto=compress&cs=tinysrgb&dpr=2&h=650&w=940');
+    background-size: cover;
+    background-position: center;
+    filter: brightness(0.45);
+    z-index: -1;
+}
+
+/* ICONE */
+.icone
+{
+  display: flex;
+  justify-self: center;
+  place-items: center;
+}
+
+.container
+{
+  position: relative;
+  width: 100%;
+  min-height: 100vh;
+}
+
+.icone img
+{
+  position: absolute;
+  width: 130px;
+  height: 130px;
+  object-fit: fill;
+  left: 50%;
+  top: 15%;
+  transform: translate(-50%, -50%);
+}
+
+.titulo
+{
+  position: absolute;
+  display: block;
+  left: 50%;
+  top: 26%;
+  transform: translate(-50%, -50%);
+  font-size: 26px;
+  font-weight: 600;
+  letter-spacing: 3px;
+  color: rgba(0, 255, 234, 0.842);
+}
+
+.subtextos
+{
+  position: absolute;
+  left: 50%;
+  top: 32%;
+  transform: translate(-50%, -50%);
+  font-size: 20px;
+  font-weight: 400;
+  color: rgba(255, 255, 255, 0.767);
+}
+
+.social
+{
+    position: absolute;
+    display: flex;
+    left: 49%;
+    top: 42%;
+    justify-content: center;
+    align-items: center;
+    transform: translate(-50%, -50%);
+}
+.social li
+{
+    list-style: none;
+    margin-right: 25px;
+}
+.social li i
+{
+  font-size: 25px;
+    color: rgb(255, 255, 255);
+}
+.social li i:hover
+{
+    color: rgb(0, 255, 234, 0.842);
+}
+
+.projetos-transparente
+{
+  display: flex;
+  justify-content: space-around;
+  backdrop-filter: blur(4px);
+  border: 1px solid rgba(253, 252, 252, 0.18);
+  border-radius: 20px;
+  margin-top: 25%;
+  margin-left: 30%;
+  width: 40%;
+}
+
+.projetos-transparente .infos
+{
+  text-align: center;
+  justify-content: space-around;
+  color: #fff;
+}
+
+.infos-numeros
+{
+  color: rgba(0, 255, 234, 0.842);
+  font-weight: 600;
+}
+.infos-descricao
+{
+  color: rgba(255, 255, 255, 0.89);
+}
+
+.contatos
+{
+  position: relative;
+}
+.contatos a
+{
+  position: absolute;
+  top: 50%;
+	left: 50%;
+	transform: translate(-75%, 65%);
+  font-size: 20px;
+  padding: 20px 20px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #15212b;
+  transition: .5s;
+}
+
+.contatos a:hover {
+  background: rgb(0, 255, 234, 0.842);
+  border-radius: 10px;
+  box-shadow: 0 0 5px rgb(0, 255, 234, 0.842),
+              0 0 25px rgb(0, 255, 234, 0.842),
+              0 0 50px rgb(0, 255, 234, 0.842),
+              0 0 100px rgb(0, 255, 234, 0.842);
+}
+
+.social .dois
+{
+  position: absolute;
+  top: 50%;
+	left: 50%;
+	transform: translate(230%, 109%);
+  font-size: 25px;
+  padding: 6px 12px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #15212b;
+}
+.social .tres
+{
+  position: absolute;
+  top: 50%;
+	left: 50%;
+	transform: translate(360%, 109%);
+  font-size: 25px;
+  padding: 6px 12px;
+  text-decoration: none;
+  border-radius: 10px;
+  color: #fff;
+  background-color: #15212b;
+}
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+
+.vidro 
+{
+    position: fixed;
+    width: 280px;
+    height: 280px;
+    text-align: center;
+    top: 100px;
+    left: 0;
+    bottom: 0;
+    right: 0;
+    margin: auto;
+    backdrop-filter: blur(3px);
+    border-radius: 20px;
+    border: 1px solid rgba(253, 252, 252, 0.18);
+}
+
+.vidro p
+  {
+    font-size: 26px;
+    font-family: 'Poppins', sans-serif;
+    font-weight: 700;
+    letter-spacing: 5px;
+    color: #fff;
+  }
